@@ -5,44 +5,117 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Terms of Service - PIANOA</title>
     <style>
-        body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; line-height: 1.6; }
-        h1 { color: #6B46C1; }
-        h2 { color: #553C9A; margin-top: 30px; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: white;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        header {
+            text-align: center;
+            padding: 40px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.2);
+            margin-bottom: 40px;
+        }
+        .logo { font-size: 48px; margin-bottom: 10px; }
+        h1 { font-size: 36px; margin-bottom: 10px; }
+        .content {
+            background: rgba(255,255,255,0.1);
+            border-radius: 20px;
+            padding: 40px;
+            line-height: 1.8;
+        }
+        h2 { margin: 30px 0 15px; font-size: 24px; }
+        h2:first-child { margin-top: 0; }
+        p { margin-bottom: 15px; }
+        ul { margin-left: 30px; margin-bottom: 15px; }
+        li { margin-bottom: 8px; }
+        footer {
+            text-align: center;
+            padding: 40px 0;
+            margin-top: 40px;
+        }
+        footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            opacity: 0.8;
+        }
+        footer a:hover { opacity: 1; text-decoration: underline; }
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            color: white;
+            text-decoration: none;
+            opacity: 0.8;
+        }
+        .back-link:hover { opacity: 1; }
     </style>
 </head>
 <body>
-    <h1>Terms of Service</h1>
-    <p><strong>Last updated:</strong> December 13, 2025</p>
-    
-    <h2>1. Acceptance of Terms</h2>
-    <p>By accessing and using the PIANOA application ("App"), you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use the App.</p>
-    
-    <h2>2. Description of Service</h2>
-    <p>PIANOA is a piano tutorial service that creates and shares short video clips on social media platforms including TikTok. The App allows users to:</p>
-    <ul>
-        <li>View piano tutorial content</li>
-        <li>Share content to their TikTok profile</li>
-        <li>Access links to full tutorials on YouTube</li>
-    </ul>
-    
-    <h2>3. User Accounts</h2>
-    <p>To use certain features of the App, you may need to connect your TikTok account. You are responsible for maintaining the confidentiality of your account credentials.</p>
-    
-    <h2>4. Content</h2>
-    <p>All piano tutorial content is owned by PIANOA. Users may share content to their personal social media accounts but may not redistribute or sell the content.</p>
-    
-    <h2>5. TikTok Integration</h2>
-    <p>The App integrates with TikTok's Content Posting API. By using this feature, you also agree to TikTok's Terms of Service.</p>
-    
-    <h2>6. Disclaimer</h2>
-    <p>The App is provided "as is" without warranties of any kind. PIANOA is not responsible for any issues arising from the use of the App.</p>
-    
-    <h2>7. Changes to Terms</h2>
-    <p>We reserve the right to modify these terms at any time. Continued use of the App constitutes acceptance of any changes.</p>
-    
-    <h2>8. Contact</h2>
-    <p>For questions about these Terms, please visit our YouTube channel: <a href="https://www.youtube.com/@pianoa-6448">PIANOA on YouTube</a></p>
-    
-    <p><a href="index.html">← Back to Home</a></p>
+    <div class="container">
+        <header>
+            <div class="logo">🎹</div>
+            <h1>Terms of Service</h1>
+            <a href="index.html" class="back-link">← Back to Home</a>
+        </header>
+
+        <div class="content">
+            <p><strong>Last updated:</strong> January 5, 2025</p>
+
+            <h2>1. Acceptance of Terms</h2>
+            <p>By accessing and using PIANOA ("the Service"), you accept and agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use the Service.</p>
+
+            <h2>2. Description of Service</h2>
+            <p>PIANOA is a service that helps piano content creators automatically share short video clips from their YouTube tutorials to TikTok. The Service:</p>
+            <ul>
+                <li>Connects to your TikTok account with your authorization</li>
+                <li>Creates short clips from your existing piano tutorial videos</li>
+                <li>Uploads these clips to your TikTok profile on your behalf</li>
+            </ul>
+
+            <h2>3. User Responsibilities</h2>
+            <p>You are responsible for:</p>
+            <ul>
+                <li>Ensuring you have the rights to all content uploaded through the Service</li>
+                <li>Maintaining the security of your account credentials</li>
+                <li>Complying with TikTok's Terms of Service and Community Guidelines</li>
+                <li>All content posted to your TikTok account through the Service</li>
+            </ul>
+
+            <h2>4. Authorization</h2>
+            <p>By using the Service, you authorize PIANOA to:</p>
+            <ul>
+                <li>Access your TikTok account to upload videos</li>
+                <li>Post content to your TikTok profile</li>
+                <li>Access basic profile information</li>
+            </ul>
+            <p>You may revoke this authorization at any time through your TikTok account settings.</p>
+
+            <h2>5. Content Ownership</h2>
+            <p>You retain all ownership rights to your content. PIANOA does not claim any ownership over videos uploaded through the Service.</p>
+
+            <h2>6. Limitation of Liability</h2>
+            <p>The Service is provided "as is" without warranties of any kind. PIANOA is not liable for any damages arising from the use of the Service.</p>
+
+            <h2>7. Changes to Terms</h2>
+            <p>We reserve the right to modify these terms at any time. Continued use of the Service after changes constitutes acceptance of the new terms.</p>
+
+            <h2>8. Contact</h2>
+            <p>For questions about these Terms, please contact us through our YouTube channel: <a href="https://www.youtube.com/@pianoa-6448" style="color: white;">@pianoa-6448</a></p>
+        </div>
+
+        <footer>
+            <a href="index.html">🏠 Home</a>
+            <a href="privacy.html">🔒 Privacy Policy</a>
+            <a href="https://www.youtube.com/@pianoa-6448">📺 YouTube</a>
+        </footer>
+    </div>
 </body>
 </html>
